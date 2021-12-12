@@ -1,6 +1,4 @@
 <template>
-    <!-- <router-link to="/">Home</router-link> |
-    <router-link to="/branding">Branding</router-link> -->
   <router-view/>
 </template>
 
