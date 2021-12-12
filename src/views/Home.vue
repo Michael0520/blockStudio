@@ -1,15 +1,11 @@
 <template>
-  <div class="home"
-  style="background-color: aqua;">
-    <div class="home_banner-section"
-    style="background-image: url(
-      'https://picsum.photos/1800/1800'
-    );"></div>
+  <div class="home">
+    <div class="home_banner-section"></div>
 
-    <h1>123</h1>
+    <h1></h1>
   </div>
 
-  <!-- <div class="btn btn-primary">123</div> -->
+  <div class="btn btn-primary">123</div>
 </template>
 
 <script>
@@ -36,7 +32,6 @@ export default {
 </script>
 
 <style lang="scss">
-/* @import "../assets/main.scss"; */
 .home {
   max-width: 1280px;
   .home_banner-section {
@@ -46,7 +41,7 @@ export default {
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
-    background-image: url("https://picsum.photos/1800/1800");
+    background-image: url("https://picsum.photos/2000/2000");
   }
 }
 </style>
