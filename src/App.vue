@@ -1,5 +1,5 @@
 <template>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
@@ -12,6 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  width: 100%;
 }
 
 #nav {
@@ -27,7 +28,7 @@
   }
 }
 
-body{
+body {
   margin: 0;
   overflow-x: hidden;
   width: 100%;
