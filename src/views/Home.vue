@@ -1,46 +1,37 @@
 <template>
-  <div class="home">
-    <div class="home_banner-section">
-      <div class="home_banner">
-        <div class="home_banner-image"></div>
-        <div class="home_banner-content">
-          <h1 class="home_banner-title">
-            Commercial builders with pride –
-            workmanship that values quality.
-          </h1>
-          <p class="body1 home_banner-subTitle">
-            Acclaim Contractors are a highly specialised local business with over 20 years building and civil industry
-            experience with many accolades, commendations and awards recognising their workmanship.Acclaim
-            Contractors are a highly specialised local business with over 20 years building .
-          </p>
-        </div>
-        <header>
-          <div class="nav_logo">
-            <svg
-              width="23"
-              height="5"
-              viewBox="0 0 23 5"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M2 2.54999H21" stroke="white" stroke-width="4" stroke-linecap="square" />
-            </svg>
-            <svg
-              width="27"
-              height="36"
-              viewBox="0 0 27 36"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M11.0159 35.3717C9.25588 35.3717 7.4799 35.3145 5.68789 35.2003C3.89588 35.0861 2.32789 34.8494 0.983887 34.4904V1.5403C1.68789 1.40974 2.43988 1.28734 3.23989 1.1731C4.03989 1.05886 4.85588 0.969098 5.68789 0.903818C6.51989 0.838537 7.34388 0.789578 8.15989 0.756938C8.97589 0.724297 9.75188 0.707977 10.4879 0.707977C12.5039 0.707977 14.3759 0.863016 16.1039 1.1731C17.8319 1.48318 19.3279 1.99725 20.5919 2.71534C21.8559 3.43342 22.8399 4.37997 23.5439 5.55502C24.2479 6.73006 24.5999 8.18253 24.5999 9.91246C24.5999 11.5118 24.2239 12.8827 23.4719 14.0251C22.7199 15.1675 21.6719 16.0814 20.3279 16.7669C22.3439 17.4523 23.8319 18.4641 24.7919 19.8024C25.7519 21.1406 26.2319 22.8379 26.2319 24.8942C26.2319 28.3867 24.9839 31.0061 22.4879 32.7523C19.9919 34.4985 16.1679 35.3717 11.0159 35.3717ZM6.93589 19.7045V30.035C7.60789 30.1003 8.32788 30.1493 9.09589 30.1819C9.86389 30.2145 10.5679 30.2309 11.2079 30.2309C12.4559 30.2309 13.6159 30.1493 14.6879 29.9861C15.7599 29.8229 16.6879 29.5373 17.4719 29.1293C18.2559 28.7213 18.8799 28.1745 19.3439 27.4891C19.8079 26.8037 20.0399 25.9224 20.0399 24.8453C20.0399 22.9195 19.3519 21.5813 17.9759 20.8305C16.5999 20.0798 14.6959 19.7045 12.2639 19.7045H6.93589ZM6.93589 14.8574H11.2079C13.5119 14.8574 15.3199 14.5229 16.6319 13.8537C17.9439 13.1846 18.5999 11.9851 18.5999 10.2552C18.5999 8.62317 17.9199 7.46446 16.5599 6.77902C15.1999 6.09357 13.4319 5.75086 11.2559 5.75086C10.3279 5.75086 9.50389 5.76718 8.78389 5.79982C8.06388 5.83246 7.44789 5.88142 6.93589 5.9467V14.8574Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-          <div class="nav-bar"></div>
+  <!-- header -->
+  <header>
+    <div class="nav_logo">
+      <svg width="23" height="5" viewBox="0 0 23 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 2.54999H21" stroke="white" stroke-width="4" stroke-linecap="square" />
+      </svg>
+      <svg
+        width="27"
+        height="36"
+        viewBox="0 0 27 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M11.0159 35.3717C9.25588 35.3717 7.4799 35.3145 5.68789 35.2003C3.89588 35.0861 2.32789 34.8494 0.983887 34.4904V1.5403C1.68789 1.40974 2.43988 1.28734 3.23989 1.1731C4.03989 1.05886 4.85588 0.969098 5.68789 0.903818C6.51989 0.838537 7.34388 0.789578 8.15989 0.756938C8.97589 0.724297 9.75188 0.707977 10.4879 0.707977C12.5039 0.707977 14.3759 0.863016 16.1039 1.1731C17.8319 1.48318 19.3279 1.99725 20.5919 2.71534C21.8559 3.43342 22.8399 4.37997 23.5439 5.55502C24.2479 6.73006 24.5999 8.18253 24.5999 9.91246C24.5999 11.5118 24.2239 12.8827 23.4719 14.0251C22.7199 15.1675 21.6719 16.0814 20.3279 16.7669C22.3439 17.4523 23.8319 18.4641 24.7919 19.8024C25.7519 21.1406 26.2319 22.8379 26.2319 24.8942C26.2319 28.3867 24.9839 31.0061 22.4879 32.7523C19.9919 34.4985 16.1679 35.3717 11.0159 35.3717ZM6.93589 19.7045V30.035C7.60789 30.1003 8.32788 30.1493 9.09589 30.1819C9.86389 30.2145 10.5679 30.2309 11.2079 30.2309C12.4559 30.2309 13.6159 30.1493 14.6879 29.9861C15.7599 29.8229 16.6879 29.5373 17.4719 29.1293C18.2559 28.7213 18.8799 28.1745 19.3439 27.4891C19.8079 26.8037 20.0399 25.9224 20.0399 24.8453C20.0399 22.9195 19.3519 21.5813 17.9759 20.8305C16.5999 20.0798 14.6959 19.7045 12.2639 19.7045H6.93589ZM6.93589 14.8574H11.2079C13.5119 14.8574 15.3199 14.5229 16.6319 13.8537C17.9439 13.1846 18.5999 11.9851 18.5999 10.2552C18.5999 8.62317 17.9199 7.46446 16.5599 6.77902C15.1999 6.09357 13.4319 5.75086 11.2559 5.75086C10.3279 5.75086 9.50389 5.76718 8.78389 5.79982C8.06388 5.83246 7.44789 5.88142 6.93589 5.9467V14.8574Z"
+          fill="white"
+        />
+      </svg>
+    </div>
+    <div class="nav-bar">
+      <ul>
+        <li>
+          <h7>About</h7>
+        </li>
+        <li>
+          <h7>Website</h7>
+        </li>
+        <li>
+          <h7>Branding</h7>
+        </li>
+        <li>
           <div class="nav-hamburger">
             <svg
               width="20"
@@ -70,7 +61,18 @@
               <path d="M1.01671 0.630423H18.9834" stroke="white" stroke-linecap="round" />
             </svg>
           </div>
-        </header>
+        </li>
+      </ul>
+      <div class="nav-hamburger-section"></div>
+    </div>
+  </header>
+
+  <!--  -->
+  <div class="home">
+    <div class="home_banner-section">
+      <div class="home_banner">
+        <div class="home_banner-image"></div>
+
         <p class="body2 home_banner-siderTitle">Block Studio©2018 Copyright. All Rights Reserved.</p>
         <div class="home_media">
           <svg
@@ -114,6 +116,18 @@
           </svg>
         </div>
       </div>
+      <!--  -->
+      <div class="home_banner-content">
+        <h1 class="home_banner-title">
+          Commercial builders with pride –
+          workmanship that values quality.
+        </h1>
+        <p class="body1 home_banner-subTitle">
+          Acclaim Contractors are a highly specialised local business with over 20 years building and civil industry
+          experience with many accolades, commendations and awards recognising their workmanship.Acclaim
+          Contractors are a highly specialised local business with over 20 years building .
+        </p>
+      </div>
     </div>
     <h1>1312313</h1>
   </div>
@@ -145,8 +159,12 @@ export default {
 </script>
 
 <style lang="scss">
+.home {
+  // position: relative;
+}
 .home_banner-section {
   max-width: 1280px;
+
   &::before {
     content: "";
     position: absolute;
@@ -158,31 +176,16 @@ export default {
     opacity: 0.3;
   }
   .home_banner {
+    // position: relative;
     .home_banner-image {
       height: 100vh;
       width: 100vw;
       background-size: cover;
       background-position: 50%;
       background-attachment: fixed;
-      background-image: url("https://picsum.photos/2000/2000?grayscale");
+      background-image: url("https://picsum.photos/1440/780?grayscale");
     }
-    .home_banner-content {
-      position: absolute;
-      top: 40%;
-      // margin: 304px 201px 348px 202px;
-      margin: 0px 201px 0px 202px;
 
-      .home_banner-title {
-        color: #fff;
-        padding-bottom: 28px;
-        margin: 0px 201px 0px 202px;
-      }
-      .home_banner-subTitle {
-        color: #fff;
-        margin: 0px 342px 0px 343px;
-        text-align: center;
-      }
-    }
     .home_banner-siderTitle {
       color: #fff;
       transform: rotate(90deg);
@@ -201,18 +204,73 @@ export default {
     }
   }
 }
+.home_banner-content {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  // margin: 304px 201px 348px 202px;
+  // margin: 0px 201px 0px 202px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
 
+  .home_banner-title {
+    color: #fff;
+    padding-bottom: 28px;
+    // margin: 0px 201px 0px 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    // position: absolute;
+    width: 800px;
+  }
+  .home_banner-subTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    // margin: 0px 342px 0px 343px;
+    text-align: center;
+    // position: absolute;
+    width: 600px;
+  }
+}
 header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: space-between;
   .nav_logo {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
+    // position: absolute;
     padding: 26.55px 0 0 44.98px;
     svg {
       &:first-child {
         margin-bottom: 13.16px;
+      }
+    }
+  }
+  .nav-bar {
+    padding-top: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      flex-direction: row;
+      li {
+        padding-right: 60px;
+        &:last-child {
+          padding-right: 37.83px;
+        }
       }
     }
   }
@@ -222,19 +280,22 @@ header {
     justify-content: center;
     align-items: center;
     /* Rectangle 2 */
-    position: absolute;
-    width: 95px;
-    height: 100px;
-    top: 0px;
-    right: 0px;
-    /* Black */
-    background: #000000;
+    // position: absolute;
     svg {
       margin-top: 7.97px;
       &:first-of-type {
         margin-top: 0;
       }
     }
+  }
+  .nav-hamburger-section {
+    background: #000000;
+    width: 95px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
   }
 }
 </style>

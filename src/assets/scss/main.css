@@ -52,6 +52,13 @@ h6 {
   line-height: 24px;
 }
 
+h7 {
+  /* Heading 7 */
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
 button1 {
   /* Button 1 */
   font-weight: normal;
