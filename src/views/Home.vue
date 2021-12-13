@@ -163,8 +163,8 @@ export default {
   // position: relative;
 }
 .home_banner-section {
-  max-width: 1280px;
-
+  // max-width: 1280px;
+  // position: absolute;
   &::before {
     content: "";
     position: absolute;
@@ -203,41 +203,41 @@ export default {
       }
     }
   }
-}
-.home_banner-content {
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  // margin: 304px 201px 348px 202px;
-  // margin: 0px 201px 0px 202px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1000px;
-
-  .home_banner-title {
-    color: #fff;
-    padding-bottom: 28px;
+  .home_banner-content {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    // margin: 304px 201px 348px 202px;
     // margin: 0px 201px 0px 202px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    // position: absolute;
-    width: 800px;
-  }
-  .home_banner-subTitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    // margin: 0px 342px 0px 343px;
-    text-align: center;
-    // position: absolute;
-    width: 600px;
+
+    .home_banner-title {
+      color: #fff;
+      padding-bottom: 28px;
+      // margin: 0px 201px 0px 202px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      // position: absolute;
+      width: 1000px;
+    }
+    .home_banner-subTitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      // margin: 0px 342px 0px 343px;
+      text-align: center;
+      // position: absolute;
+      width: 800px;
+    }
   }
 }
+
 header {
   width: 100%;
   position: fixed;
@@ -250,8 +250,8 @@ header {
   .nav_logo {
     display: flex;
     flex-direction: column;
-    // position: absolute;
     padding: 26.55px 0 0 44.98px;
+    cursor: pointer;
     svg {
       &:first-child {
         margin-bottom: 13.16px;
@@ -266,10 +266,14 @@ header {
     ul {
       display: flex;
       flex-direction: row;
+      cursor: pointer;
       li {
-        padding-right: 60px;
+        margin-right: 60px;
         &:last-child {
-          padding-right: 37.83px;
+          margin-right: 37.83px;
+        }
+        &:hover {
+          border-bottom: 1px solid #fff;
         }
       }
     }
