@@ -47,7 +47,7 @@
                         >
                             <path
                                 d="M1.01671 0.630423H18.9834"
-                                stroke="white"
+                                stroke="black"
                                 stroke-linecap="round"
                             />
                         </svg>
@@ -60,7 +60,7 @@
                         >
                             <path
                                 d="M1.01671 0.630423H18.9834"
-                                stroke="white"
+                                stroke="black"
                                 stroke-linecap="round"
                             />
                         </svg>
@@ -73,7 +73,7 @@
                         >
                             <path
                                 d="M1.01671 0.630423H18.9834"
-                                stroke="white"
+                                stroke="black"
                                 stroke-linecap="round"
                             />
                         </svg>
@@ -83,6 +83,26 @@
             <div class="nav-hamburger-section"></div>
         </div>
     </header>
+
+    <div class="branding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col g-0">
+                    <div class="branding_banner-section">
+                        <div class="branding_banner-image"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-start">
+                    <div class="branding_award">
+                        <h2>Woden Public Realm Improvements Works Package 1 Including Lift & Stairs</h2>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -105,8 +125,10 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 header {
+    background-color: white;
+    padding-bottom: 19px;
     .nav-bar {
         ul {
             li {
@@ -114,6 +136,28 @@ header {
                     border-bottom: 2px solid #000;
                 }
             }
+        }
+        .nav-hamburger {
+        }
+        .nav-hamburger-section {
+            background-color: white;
+            &:hover {
+                background-color: #000;
+                transition: ease-in-out;
+            }
+        }
+    }
+}
+
+.branding {
+    .branding_banner-section {
+        .branding_banner-image {
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+            background-position: 50%;
+            background-attachment: fixed;
+            background-image: url("https://picsum.photos/1440/780?grayscale");
         }
     }
 }
