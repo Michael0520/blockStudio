@@ -715,7 +715,7 @@ header {
           margin-right: 37.83px;
         }
         &:hover {
-          border-bottom: 1px solid #fff;
+          border-bottom: 2px solid #fff;
         }
       }
     }
