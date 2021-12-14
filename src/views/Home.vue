@@ -708,6 +708,7 @@ header {
       display: flex;
       flex-direction: row;
       cursor: pointer;
+
       li {
         margin-right: 60px;
         &:last-child {
