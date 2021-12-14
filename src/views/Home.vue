@@ -69,6 +69,7 @@
 
   <!--  -->
   <div class="home">
+    <!-- banner-section -->
     <div class="home_banner-section">
       <div class="home_banner">
         <div class="home_banner-image"></div>
@@ -130,6 +131,7 @@
       </div>
     </div>
     <h1 class="home_main-title">Works</h1>
+    <!-- main-section -->
     <div class="home_main-section">
       <div class="container-fluid">
         <div class="row gx-0">
@@ -395,6 +397,24 @@
         </div>
       </div>
     </div>
+
+    <div class="home_more-section">
+      <div class="pb-4">
+        <svg
+          width="2"
+          height="137"
+          viewBox="0 0 2 137"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect x="0.5" width="1" height="137" fill="#4A4A4A" />
+        </svg>
+      </div>
+      <h4 class="pb-4">Woden Public Realm Improvements Works Package 1 Including Lift & Stairs.</h4>
+      <div class="btn btn-outline-dark more-button">
+        <button1>More</button1>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -533,6 +553,15 @@ export default {
           }
         }
       }
+    }
+  }
+
+  .home_more-section {
+    padding-top: 151px;
+    padding-bottom: 187px;
+
+    .more-button {
+      padding: 13px 71px;
     }
   }
 }
