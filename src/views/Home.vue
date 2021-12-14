@@ -123,11 +123,11 @@
           Commercial builders with pride –
           workmanship that values quality.
         </h1>
-        <p class="body1 home_banner-subTitle">
+        <body1 class="home_banner-subTitle">
           Acclaim Contractors are a highly specialised local business with over 20 years building and civil industry
           experience with many accolades, commendations and awards recognising their workmanship.Acclaim
           Contractors are a highly specialised local business with over 20 years building .
-        </p>
+        </body1>
       </div>
     </div>
     <h1 class="home_main-title">Works</h1>
@@ -149,9 +149,7 @@
                   <rect width="19" height="3" fill="black" />
                 </svg>
               </div>
-              <p
-                class="body2"
-              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <body2>The Australian Treasury Building & King Edward TCE Barton Canberra City.</body2>
               <div class="text-end">
                 <svg
                   width="29"
@@ -184,9 +182,7 @@
                   <rect width="19" height="3" fill="black" />
                 </svg>
               </div>
-              <p
-                class="body2"
-              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <body2>The Australian Treasury Building & King Edward TCE Barton Canberra City.</body2>
               <div class="text-end">
                 <svg
                   width="29"
@@ -219,9 +215,7 @@
                   <rect width="19" height="3" fill="black" />
                 </svg>
               </div>
-              <p
-                class="body2"
-              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <body2>The Australian Treasury Building & King Edward TCE Barton Canberra City.</body2>
               <div class="text-end">
                 <svg
                   width="29"
@@ -256,12 +250,12 @@
 
                 <div class="home_main-product-card-data">
                   <div class="home_main-product-card-client">
-                    <p class="body2">CLIENT</p>
-                    <p class="body2">ACT Government</p>
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
                   </div>
                   <div class="home_main-product-card-status">
-                    <p class="body2">STATUS</p>
-                    <p class="body2">Completed 2017</p>
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
                   </div>
                 </div>
               </div>
@@ -281,12 +275,12 @@
 
                 <div class="home_main-product-card-data">
                   <div class="home_main-product-card-client">
-                    <p class="body2">CLIENT</p>
-                    <p class="body2">ACT Government</p>
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
                   </div>
                   <div class="home_main-product-card-status">
-                    <p class="body2">STATUS</p>
-                    <p class="body2">Completed 2017</p>
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
                   </div>
                 </div>
               </div>
@@ -306,12 +300,12 @@
 
                 <div class="home_main-product-card-data">
                   <div class="home_main-product-card-client">
-                    <p class="body2">CLIENT</p>
-                    <p class="body2">ACT Government</p>
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
                   </div>
                   <div class="home_main-product-card-status">
-                    <p class="body2">STATUS</p>
-                    <p class="body2">Completed 2017</p>
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
                   </div>
                 </div>
               </div>
@@ -333,12 +327,12 @@
 
                 <div class="home_main-product-card-data">
                   <div class="home_main-product-card-client">
-                    <p class="body2">CLIENT</p>
-                    <p class="body2">ACT Government</p>
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
                   </div>
                   <div class="home_main-product-card-status">
-                    <p class="body2">STATUS</p>
-                    <p class="body2">Completed 2017</p>
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
                   </div>
                 </div>
               </div>
@@ -358,12 +352,12 @@
 
                 <div class="home_main-product-card-data">
                   <div class="home_main-product-card-client">
-                    <p class="body2">CLIENT</p>
-                    <p class="body2">ACT Government</p>
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
                   </div>
                   <div class="home_main-product-card-status">
-                    <p class="body2">STATUS</p>
-                    <p class="body2">Completed 2017</p>
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
                   </div>
                 </div>
               </div>
@@ -383,12 +377,12 @@
 
                 <div class="home_main-product-card-data">
                   <div class="home_main-product-card-client">
-                    <p class="body2">CLIENT</p>
-                    <p class="body2">ACT Government</p>
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
                   </div>
                   <div class="home_main-product-card-status">
-                    <p class="body2">STATUS</p>
-                    <p class="body2">Completed 2017</p>
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
                   </div>
                 </div>
               </div>
@@ -416,6 +410,121 @@
       </div>
     </div>
   </div>
+
+  <footer class="container-fluid bg-dark text-white">
+    <div class="row footer-content-padding">
+      <!-- <div class="col-lg-1 col-md-12 col-sm-12"></div> -->
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="d-flex">
+          <div class="footer-logo d-flex flex-column mx-auto">
+            <svg
+              width="16"
+              height="4"
+              viewBox="0 0 16 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.25928 1.55005H13.2222"
+                stroke="white"
+                stroke-width="4"
+                stroke-linecap="square"
+              />
+            </svg>
+            <svg
+              width="17"
+              height="22"
+              viewBox="0 0 17 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.93607 21.6182C5.82792 21.6182 4.70971 21.5835 3.58141 21.514C2.4531 21.4446 1.46586 21.3007 0.619629 21.0825V1.05402C1.06289 0.974655 1.53637 0.900256 2.04007 0.830816C2.54378 0.761376 3.05755 0.706816 3.58141 0.667136C4.10526 0.627456 4.62407 0.597696 5.13785 0.577856C5.65163 0.558016 6.14022 0.548096 6.60363 0.548096C7.87297 0.548096 9.05162 0.642335 10.1396 0.830816C11.2276 1.0193 12.1696 1.33177 12.9654 1.76826C13.7613 2.20474 14.3808 2.78009 14.8241 3.49434C15.2673 4.20858 15.489 5.09145 15.489 6.14298C15.489 7.11514 15.2522 7.94841 14.7787 8.64282C14.3053 9.33722 13.6454 9.89273 12.7992 10.3094C14.0685 10.726 15.0054 11.3411 15.6099 12.1545C16.2143 12.9679 16.5165 13.9996 16.5165 15.2495C16.5165 17.3724 15.7307 18.9646 14.1592 20.026C12.5876 21.0875 10.1799 21.6182 6.93607 21.6182ZM4.36718 12.095V18.3743C4.7903 18.414 5.24363 18.4438 5.72718 18.4636C6.21074 18.4835 6.654 18.4934 7.05696 18.4934C7.84274 18.4934 8.57311 18.4438 9.24807 18.3446C9.92304 18.2454 10.5073 18.0718 11.001 17.8238C11.4946 17.5758 11.8875 17.2435 12.1796 16.8268C12.4718 16.4102 12.6179 15.8745 12.6179 15.2198C12.6179 14.0492 12.1847 13.2358 11.3183 12.7795C10.4519 12.3231 9.25312 12.095 7.72185 12.095H4.36718ZM4.36718 9.14874H7.05696C8.50764 9.14874 9.646 8.94538 10.4721 8.53866C11.2982 8.13193 11.7112 7.40282 11.7112 6.3513C11.7112 5.35929 11.283 4.65498 10.4267 4.23834C9.57044 3.82169 8.45726 3.61338 7.08718 3.61338C6.50288 3.61338 5.98408 3.6233 5.53074 3.64314C5.0774 3.66298 4.68956 3.69274 4.36718 3.73242V9.14874Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div class="footer-nav-bar-section">
+            <div class="footer-nav-bar-list">
+              <ul class="d-flex justify-content-between">
+                <li>
+                  <h7>About</h7>
+                </li>
+                <li>
+                  <h7>Website</h7>
+                </li>
+                <li>
+                  <h7>Branding</h7>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-nav-bar-data">
+              <ul class="d-flex flex-column text-start">
+                <li>
+                  <body2>T. 02-2885-8586</body2>
+                </li>
+                <li>
+                  <body2>E. info@blockstudio.tw</body2>
+                </li>
+                <li>
+                  <body2>3F., No.2, Ln. 80, Sec. 4, Chengde Rd., Shilin Dist., Taipei City 111, Taiwans</body2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="footer-media d-flex justify-content-end">
+          <svg
+            width="8"
+            height="16"
+            viewBox="0 0 8 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.16415 15.4974V8.66739H7.46832L7.81082 5.99323H5.16415V4.2899C5.16415 3.51823 5.37915 2.9899 6.48665 2.9899H7.88999V0.60573C7.20718 0.532556 6.52086 0.497224 5.83415 0.499897C3.79749 0.499897 2.39915 1.74323 2.39915 4.02573V5.98823H0.109985V8.6624H2.40415V15.4974H5.16415Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.99997 3.99423C5.78317 3.99423 3.99411 5.7833 3.99411 8.00009C3.99411 10.2169 5.78317 12.0059 7.99997 12.0059C10.2168 12.0059 12.0058 10.2169 12.0058 8.00009C12.0058 5.7833 10.2168 3.99423 7.99997 3.99423ZM7.99997 10.6036C6.56638 10.6036 5.39645 9.43369 5.39645 8.00009C5.39645 6.5665 6.56638 5.39658 7.99997 5.39658C9.43356 5.39658 10.6035 6.5665 10.6035 8.00009C10.6035 9.43369 9.43356 10.6036 7.99997 10.6036ZM12.1699 2.89658C11.6523 2.89658 11.2343 3.31455 11.2343 3.83212C11.2343 4.3497 11.6523 4.76767 12.1699 4.76767C12.6875 4.76767 13.1054 4.35165 13.1054 3.83212C13.1056 3.70922 13.0815 3.5875 13.0345 3.47392C12.9876 3.36035 12.9187 3.25715 12.8318 3.17025C12.7449 3.08334 12.6417 3.01444 12.5281 2.96748C12.4145 2.92052 12.2928 2.89642 12.1699 2.89658ZM15.8086 8.00009C15.8086 6.92197 15.8183 5.85361 15.7578 4.77744C15.6972 3.52744 15.4121 2.41806 14.498 1.504C13.582 0.587983 12.4746 0.30478 11.2246 0.244233C10.1465 0.183686 9.07809 0.193452 8.00192 0.193452C6.9238 0.193452 5.85544 0.183686 4.77927 0.244233C3.52927 0.30478 2.41989 0.589936 1.50583 1.504C0.589814 2.42001 0.306611 3.52744 0.246064 4.77744C0.185517 5.85556 0.195283 6.92392 0.195283 8.00009C0.195283 9.07626 0.185517 10.1466 0.246064 11.2227C0.306611 12.4727 0.591767 13.5821 1.50583 14.4962C2.42185 15.4122 3.52927 15.6954 4.77927 15.7559C5.85739 15.8165 6.92575 15.8067 8.00192 15.8067C9.08005 15.8067 10.1484 15.8165 11.2246 15.7559C12.4746 15.6954 13.584 15.4102 14.498 14.4962C15.414 13.5802 15.6972 12.4727 15.7578 11.2227C15.8203 10.1466 15.8086 9.07822 15.8086 8.00009ZM14.0898 12.6056C13.9472 12.961 13.7754 13.2267 13.5 13.5001C13.2246 13.7755 12.9609 13.9474 12.6054 14.0899C11.5781 14.4981 9.13864 14.4063 7.99997 14.4063C6.8613 14.4063 4.41989 14.4981 3.39255 14.0919C3.03708 13.9493 2.77145 13.7774 2.49802 13.502C2.22263 13.2267 2.05075 12.963 1.90817 12.6075C1.50192 11.5782 1.59372 9.13876 1.59372 8.00009C1.59372 6.86142 1.50192 4.42001 1.90817 3.39267C2.05075 3.0372 2.22263 2.77158 2.49802 2.49814C2.77341 2.2247 3.03708 2.05087 3.39255 1.9083C4.41989 1.50205 6.8613 1.59384 7.99997 1.59384C9.13864 1.59384 11.58 1.50205 12.6074 1.9083C12.9629 2.05087 13.2285 2.22275 13.5019 2.49814C13.7773 2.77353 13.9492 3.0372 14.0918 3.39267C14.498 4.42001 14.4062 6.86142 14.4062 8.00009C14.4062 9.13876 14.498 11.5782 14.0898 12.6056Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            width="18"
+            height="14"
+            viewBox="0 0 18 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.9525 2.41492C17.3333 3.89992 17.3333 6.99992 17.3333 6.99992C17.3333 6.99992 17.3333 10.0999 16.9525 11.5849C16.7408 12.4058 16.1216 13.0516 15.3375 13.2699C13.9133 13.6666 8.99996 13.6666 8.99996 13.6666C8.99996 13.6666 4.08913 13.6666 2.66246 13.2699C1.87496 13.0483 1.25663 12.4033 1.04746 11.5849C0.666626 10.0999 0.666626 6.99992 0.666626 6.99992C0.666626 6.99992 0.666626 3.89992 1.04746 2.41492C1.25913 1.59409 1.87829 0.948252 2.66246 0.729918C4.08913 0.333252 8.99996 0.333252 8.99996 0.333252C8.99996 0.333252 13.9133 0.333252 15.3375 0.729918C16.125 0.951585 16.7433 1.59659 16.9525 2.41492ZM7.33329 9.91658L12.3333 6.99992L7.33329 4.08325V9.91658Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="footer-copyright d-flex justify-content-center border-top border-white">
+          <body2>Block Studio©2018 Copyright. All Rights Reserved.</body2>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -443,9 +552,10 @@ export default {
 
 <style lang="scss">
 .home {
+  width: 100%;
   // position: relative;
   .home_banner-section {
-    // max-width: 1280px;
+    max-width: 1280px;
     // position: absolute;
     &::before {
       content: "";
@@ -458,6 +568,7 @@ export default {
       opacity: 0.3;
     }
     .home_banner {
+      width: 100%;
       // position: relative;
       .home_banner-image {
         height: 100vh;
@@ -505,7 +616,7 @@ export default {
         align-items: center;
         text-align: center;
         // position: absolute;
-        width: 1000px;
+        // width: 1000px;
       }
       .home_banner-subTitle {
         display: flex;
@@ -515,7 +626,7 @@ export default {
         // margin: 0px 342px 0px 343px;
         text-align: center;
         // position: absolute;
-        width: 800px;
+        // width: 800px;
       }
     }
   }
@@ -530,8 +641,8 @@ export default {
     }
     .home_main-product-card {
       .home_main-product-card-image img {
-        width: 386px;
-        height: 360px;
+        // width: 386px;
+        // height: 360px;
       }
       .home_main-product-card-content {
         padding: 20px;
@@ -637,6 +748,29 @@ header {
     top: 0;
     right: 0;
     z-index: -1;
+  }
+}
+
+footer {
+  .footer-content-padding {
+    padding: 51px 120px 41px 120px;
+    .footer-logo {
+      svg {
+        &:first-child {
+          margin-bottom: 8px;
+        }
+      }
+    }
+    .footer-media {
+      svg {
+        margin-left: 50px;
+      }
+    }
+  }
+
+  .footer-copyright {
+    padding-top: 9px;
+    padding-bottom: 8px;
   }
 }
 </style>
