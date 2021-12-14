@@ -70,11 +70,11 @@
   <!--  -->
   <div class="home">
     <!-- banner-section -->
+
     <div class="home_banner-section">
       <div class="home_banner">
         <div class="home_banner-image"></div>
-
-        <p class="body2 home_banner-siderTitle">Block Studio©2018 Copyright. All Rights Reserved.</p>
+        <body2 class="home_banner-siderTitle">Block Studio©2018 Copyright. All Rights Reserved.</body2>
         <div class="home_media">
           <svg
             width="10"
@@ -117,6 +117,7 @@
           </svg>
         </div>
       </div>
+
       <!--  -->
       <div class="home_banner-content">
         <h1 class="home_banner-title">
@@ -239,7 +240,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
             <div class="home_main-product-card text-start">
               <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/400/400" alt />
+                <img src="https://picsum.photos/800/800" alt />
               </div>
               <div class="home_main-product-card-content">
                 <div class="btn btn-dark">Award</div>
@@ -264,7 +265,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
             <div class="home_main-product-card text-start">
               <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/400/400" alt />
+                <img src="https://picsum.photos/800/800" alt />
               </div>
               <div class="home_main-product-card-content">
                 <div class="btn btn-dark">Award</div>
@@ -289,7 +290,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
             <div class="home_main-product-card text-start">
               <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/400/400" alt />
+                <img src="https://picsum.photos/800/800" alt />
               </div>
               <div class="home_main-product-card-content">
                 <div class="btn btn-dark">Award</div>
@@ -316,7 +317,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
             <div class="home_main-product-card text-start">
               <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/400/400" alt />
+                <img src="https://picsum.photos/800/800" alt />
               </div>
               <div class="home_main-product-card-content">
                 <div class="btn btn-dark">Award</div>
@@ -341,7 +342,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
             <div class="home_main-product-card text-start">
               <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/400/400" alt />
+                <img src="https://picsum.photos/800/800" alt />
               </div>
               <div class="home_main-product-card-content">
                 <div class="btn btn-dark">Award</div>
@@ -366,7 +367,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
             <div class="home_main-product-card text-start">
               <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/400/400" alt />
+                <img src="https://picsum.photos/800/800" alt />
               </div>
               <div class="home_main-product-card-content">
                 <div class="btn btn-dark">Award</div>
@@ -556,10 +557,7 @@ export default {
 <style lang="scss">
 .home {
   width: 100%;
-  // position: relative;
   .home_banner-section {
-    max-width: 1280px;
-    // position: absolute;
     &::before {
       content: "";
       position: absolute;
@@ -572,7 +570,6 @@ export default {
     }
     .home_banner {
       width: 100%;
-      // position: relative;
       .home_banner-image {
         height: 100vh;
         width: 100vw;
@@ -582,13 +579,6 @@ export default {
         background-image: url("https://picsum.photos/1440/780?grayscale");
       }
 
-      .home_banner-siderTitle {
-        color: #fff;
-        transform: rotate(90deg);
-        position: absolute;
-        left: -40px;
-        top: 50%;
-      }
       .home_media {
         position: absolute;
         left: 0;
@@ -601,37 +591,38 @@ export default {
     }
     .home_banner-content {
       position: absolute;
-      top: 40%;
-      left: 20%;
-      // margin: 304px 201px 348px 202px;
-      // margin: 0px 201px 0px 202px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
+      width: 1037px;
+      height: 234px;
       .home_banner-title {
         color: #fff;
         padding-bottom: 28px;
-        // margin: 0px 201px 0px 202px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        // position: absolute;
-        // width: 1000px;
       }
       .home_banner-subTitle {
         display: flex;
         justify-content: center;
         align-items: center;
         color: #fff;
-        // margin: 0px 342px 0px 343px;
         text-align: center;
-        // position: absolute;
-        // width: 800px;
+        margin-left: 140px;
+        margin-right: 140px;
       }
     }
+  }
+  .home_banner-siderTitle {
+    color: #fff;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -100px;
+    top: 50%;
   }
   .home_main-title {
     margin: 97px 198px;
@@ -644,6 +635,7 @@ export default {
     }
     .home_main-product-card {
       .home_main-product-card-image img {
+        width: 100%;
       }
       .home_main-product-card-content {
         padding: 20px;
