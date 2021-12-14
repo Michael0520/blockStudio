@@ -129,10 +129,119 @@
         </p>
       </div>
     </div>
-    <h1>1312313</h1>
+    <h1 class="home_main-title">Works</h1>
+    <div class="home_main-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="home_main-paragraph-card text-start">
+              <h3>Award winning civil contractors that partner with all levels of government.</h3>
+              <div>
+                <svg
+                  width="19"
+                  height="3"
+                  viewBox="0 0 19 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="19" height="3" fill="black" />
+                </svg>
+              </div>
+              <p
+                class="body2"
+              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <div class="text-end">
+                <svg
+                  width="29"
+                  height="8"
+                  viewBox="0 0 29 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7.46H28.1L24.9731 1"
+                    stroke="#4A4A4A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="home_main-paragraph-card text-start">
+              <h3>Award winning civil contractors that partner with all levels of government.</h3>
+              <div>
+                <svg
+                  width="19"
+                  height="3"
+                  viewBox="0 0 19 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="19" height="3" fill="black" />
+                </svg>
+              </div>
+              <p
+                class="body2"
+              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <div class="text-end">
+                <svg
+                  width="29"
+                  height="8"
+                  viewBox="0 0 29 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7.46H28.1L24.9731 1"
+                    stroke="#4A4A4A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="home_main-paragraph-card text-start">
+              <h3>Award winning civil contractors that partner with all levels of government.</h3>
+              <div>
+                <svg
+                  width="19"
+                  height="3"
+                  viewBox="0 0 19 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="19" height="3" fill="black" />
+                </svg>
+              </div>
+              <p
+                class="body2"
+              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <div class="text-end">
+                <svg
+                  width="29"
+                  height="8"
+                  viewBox="0 0 29 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7.46H28.1L24.9731 1"
+                    stroke="#4A4A4A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="btn btn-primary">123</div>
 </template>
 
 <script>
@@ -161,80 +270,86 @@ export default {
 <style lang="scss">
 .home {
   // position: relative;
-}
-.home_banner-section {
-  // max-width: 1280px;
-  // position: absolute;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    opacity: 0.3;
-  }
-  .home_banner {
-    // position: relative;
-    .home_banner-image {
-      height: 100vh;
-      width: 100vw;
-      background-size: cover;
-      background-position: 50%;
-      background-attachment: fixed;
-      background-image: url("https://picsum.photos/1440/780?grayscale");
-    }
-
-    .home_banner-siderTitle {
-      color: #fff;
-      transform: rotate(90deg);
+  .home_banner-section {
+    // max-width: 1280px;
+    // position: absolute;
+    &::before {
+      content: "";
       position: absolute;
-      left: -40px;
-      top: 50%;
-    }
-    .home_media {
-      position: absolute;
+      top: 0;
       left: 0;
-      bottom: 0;
-      padding: 0 0 26px 44px;
-      svg {
-        margin-right: 66.93px;
+      width: 100vw;
+      height: 100vh;
+      background-color: #000;
+      opacity: 0.3;
+    }
+    .home_banner {
+      // position: relative;
+      .home_banner-image {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-position: 50%;
+        background-attachment: fixed;
+        background-image: url("https://picsum.photos/1440/780?grayscale");
+      }
+
+      .home_banner-siderTitle {
+        color: #fff;
+        transform: rotate(90deg);
+        position: absolute;
+        left: -40px;
+        top: 50%;
+      }
+      .home_media {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0 0 26px 44px;
+        svg {
+          margin-right: 66.93px;
+        }
+      }
+    }
+    .home_banner-content {
+      position: absolute;
+      top: 40%;
+      left: 20%;
+      // margin: 304px 201px 348px 202px;
+      // margin: 0px 201px 0px 202px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .home_banner-title {
+        color: #fff;
+        padding-bottom: 28px;
+        // margin: 0px 201px 0px 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        // position: absolute;
+        width: 1000px;
+      }
+      .home_banner-subTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        // margin: 0px 342px 0px 343px;
+        text-align: center;
+        // position: absolute;
+        width: 800px;
       }
     }
   }
-  .home_banner-content {
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    // margin: 304px 201px 348px 202px;
-    // margin: 0px 201px 0px 202px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .home_banner-title {
-      color: #fff;
-      padding-bottom: 28px;
-      // margin: 0px 201px 0px 202px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      // position: absolute;
-      width: 1000px;
-    }
-    .home_banner-subTitle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      // margin: 0px 342px 0px 343px;
-      text-align: center;
-      // position: absolute;
-      width: 800px;
-    }
+  .home_main-title {
+    margin: 97px 198px;
+  }
+  .home_main-section {
+    padding: 63px 121px 20px 121px;
   }
 }
 
