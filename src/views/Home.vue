@@ -131,110 +131,264 @@
     </div>
     <h1 class="home_main-title">Works</h1>
     <div class="home_main-section">
-      <div class="container">
+      <div class="container-fluid">
+        <div class="row gx-0">
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
+            <div class="home_main-paragraph-card text-start">
+              <h3>Award winning civil contractors that partner with all levels of government.</h3>
+              <div>
+                <svg
+                  width="19"
+                  height="3"
+                  viewBox="0 0 19 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="19" height="3" fill="black" />
+                </svg>
+              </div>
+              <p
+                class="body2"
+              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <div class="text-end">
+                <svg
+                  width="29"
+                  height="8"
+                  viewBox="0 0 29 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7.46H28.1L24.9731 1"
+                    stroke="#4A4A4A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
+            <div class="home_main-paragraph-card text-start">
+              <h3>Award winning civil contractors that partner with all levels of government.</h3>
+              <div>
+                <svg
+                  width="19"
+                  height="3"
+                  viewBox="0 0 19 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="19" height="3" fill="black" />
+                </svg>
+              </div>
+              <p
+                class="body2"
+              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <div class="text-end">
+                <svg
+                  width="29"
+                  height="8"
+                  viewBox="0 0 29 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7.46H28.1L24.9731 1"
+                    stroke="#4A4A4A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
+            <div class="home_main-paragraph-card text-start">
+              <h3>Award winning civil contractors that partner with all levels of government.</h3>
+              <div>
+                <svg
+                  width="19"
+                  height="3"
+                  viewBox="0 0 19 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="19" height="3" fill="black" />
+                </svg>
+              </div>
+              <p
+                class="body2"
+              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+              <div class="text-end">
+                <svg
+                  width="29"
+                  height="8"
+                  viewBox="0 0 29 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7.46H28.1L24.9731 1"
+                    stroke="#4A4A4A"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-4">
-            <div class="home_main-paragraph-card text-start">
-              <h3>Award winning civil contractors that partner with all levels of government.</h3>
-              <div>
-                <svg
-                  width="19"
-                  height="3"
-                  viewBox="0 0 19 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="19" height="3" fill="black" />
-                </svg>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
+            <div class="home_main-product-card text-start">
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/400/400" alt />
               </div>
-              <p
-                class="body2"
-              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
-              <div class="text-end">
-                <svg
-                  width="29"
-                  height="8"
-                  viewBox="0 0 29 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 7.46H28.1L24.9731 1"
-                    stroke="#4A4A4A"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <p class="body2">CLIENT</p>
+                    <p class="body2">ACT Government</p>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <p class="body2">STATUS</p>
+                    <p class="body2">Completed 2017</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="home_main-paragraph-card text-start">
-              <h3>Award winning civil contractors that partner with all levels of government.</h3>
-              <div>
-                <svg
-                  width="19"
-                  height="3"
-                  viewBox="0 0 19 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="19" height="3" fill="black" />
-                </svg>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
+            <div class="home_main-product-card text-start">
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/400/400" alt />
               </div>
-              <p
-                class="body2"
-              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
-              <div class="text-end">
-                <svg
-                  width="29"
-                  height="8"
-                  viewBox="0 0 29 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 7.46H28.1L24.9731 1"
-                    stroke="#4A4A4A"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <p class="body2">CLIENT</p>
+                    <p class="body2">ACT Government</p>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <p class="body2">STATUS</p>
+                    <p class="body2">Completed 2017</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="home_main-paragraph-card text-start">
-              <h3>Award winning civil contractors that partner with all levels of government.</h3>
-              <div>
-                <svg
-                  width="19"
-                  height="3"
-                  viewBox="0 0 19 3"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="19" height="3" fill="black" />
-                </svg>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
+            <div class="home_main-product-card text-start">
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/400/400" alt />
               </div>
-              <p
-                class="body2"
-              >The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
-              <div class="text-end">
-                <svg
-                  width="29"
-                  height="8"
-                  viewBox="0 0 29 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 7.46H28.1L24.9731 1"
-                    stroke="#4A4A4A"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <p class="body2">CLIENT</p>
+                    <p class="body2">ACT Government</p>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <p class="body2">STATUS</p>
+                    <p class="body2">Completed 2017</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
+            <div class="home_main-product-card text-start">
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/400/400" alt />
+              </div>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <p class="body2">CLIENT</p>
+                    <p class="body2">ACT Government</p>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <p class="body2">STATUS</p>
+                    <p class="body2">Completed 2017</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
+            <div class="home_main-product-card text-start">
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/400/400" alt />
+              </div>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <p class="body2">CLIENT</p>
+                    <p class="body2">ACT Government</p>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <p class="body2">STATUS</p>
+                    <p class="body2">Completed 2017</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
+            <div class="home_main-product-card text-start">
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/400/400" alt />
+              </div>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <p class="body2">CLIENT</p>
+                    <p class="body2">ACT Government</p>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <p class="body2">STATUS</p>
+                    <p class="body2">Completed 2017</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -350,7 +504,46 @@ export default {
   }
   .home_main-section {
     padding: 63px 121px 20px 121px;
+
+    .home_main-paragraph-card {
+      margin: 32px 27px;
+    }
+    .home_main-product-card {
+      .home_main-product-card-image img {
+        width: 386px;
+        height: 360px;
+      }
+      .home_main-product-card-content {
+        padding: 20px;
+        h6 {
+          padding-top: 12px;
+        }
+        .body2 {
+          margin-top: 1px;
+          margin-bottom: 0px;
+        }
+        .home_main-product-card-data {
+          display: flex;
+          padding-top: 12px;
+          .home_main-product-card-client {
+            width: 50%;
+          }
+          .home_main-product-card-status {
+            width: 50%;
+          }
+        }
+      }
+    }
   }
+}
+
+.paragraph01 {
+}
+.paragraph02 {
+  margin-top: 34px;
+}
+.paragraph03 {
+  margin-top: 68px;
 }
 
 header {
