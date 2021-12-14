@@ -404,7 +404,10 @@
           <rect x="0.5" width="1" height="137" fill="#4A4A4A" />
         </svg>
       </div>
-      <h4 class="pb-4">Woden Public Realm Improvements Works Package 1 Including Lift & Stairs.</h4>
+      <h4 class="pb-4">
+        Woden Public Realm Improvements Works Package
+        <br />1 Including Lift & Stairs.
+      </h4>
       <div class="btn btn-outline-dark more-button">
         <button1>More</button1>
       </div>
@@ -641,8 +644,6 @@ export default {
     }
     .home_main-product-card {
       .home_main-product-card-image img {
-        // width: 386px;
-        // height: 360px;
       }
       .home_main-product-card-content {
         padding: 20px;
@@ -755,6 +756,7 @@ footer {
   .footer-content-padding {
     padding: 51px 120px 41px 120px;
     .footer-logo {
+      padding-right: 64px;
       svg {
         &:first-child {
           margin-bottom: 8px;
