@@ -93,13 +93,123 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-start">
-                    <div class="branding_award">
+            <div class="row bg-fafafa">
+                <div class="col-lg-6 text-start">
+                    <div class="branding_award-title">
                         <h2>Woden Public Realm Improvements Works Package 1 Including Lift & Stairs</h2>
+                        <svg
+                            width="279"
+                            height="2"
+                            viewBox="0 0 279 2"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect width="279" height="2" fill="black" />
+                        </svg>
+                        <div class="branding_award-logo">
+                            <svg
+                                width="176"
+                                height="318"
+                                viewBox="0 0 176 318"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g opacity="0.12" clip-path="url(#clip0_11_471)">
+                                    <path
+                                        d="M13.3495 20.2261H137.201"
+                                        stroke="#202020"
+                                        stroke-width="16"
+                                        stroke-linecap="square"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M72.1199 318.408C60.6473 318.408 49.0705 318.052 37.3892 317.34C25.708 316.628 15.4871 315.152 6.72614 312.913V107.46C11.3152 106.646 16.2171 105.883 21.4319 105.17C26.6468 104.458 31.9658 103.898 37.3892 103.491C42.8127 103.084 48.1839 102.779 53.503 102.576C58.8222 102.372 63.8805 102.27 68.6781 102.27C81.8195 102.27 94.0221 103.237 105.286 105.17C116.55 107.104 126.302 110.309 134.541 114.787C142.781 119.264 149.195 125.166 153.784 132.493C158.373 139.82 160.667 148.876 160.667 159.663C160.667 169.635 158.217 178.183 153.315 185.306C148.413 192.43 141.581 198.128 132.82 202.402C145.962 206.676 155.661 212.985 161.919 221.329C168.177 229.674 171.306 240.257 171.306 253.079C171.306 274.855 163.171 291.188 146.9 302.076C130.63 312.964 105.703 318.408 72.1199 318.408ZM45.5244 220.719V285.133C49.9048 285.54 54.5981 285.845 59.6044 286.049C64.6106 286.252 69.1996 286.354 73.3715 286.354C81.5066 286.354 89.068 285.845 96.0559 284.828C103.044 283.81 109.093 282.029 114.203 279.485C119.314 276.941 123.382 273.532 126.406 269.258C129.431 264.984 130.943 259.489 130.943 252.773C130.943 240.766 126.458 232.421 117.489 227.74C108.519 223.059 96.1081 220.719 80.255 220.719H45.5244ZM45.5244 190.496H73.3715C88.3902 190.496 100.176 188.41 108.728 184.238C117.28 180.066 121.556 172.586 121.556 161.8C121.556 151.624 117.124 144.399 108.259 140.125C99.3933 135.851 87.8687 133.714 73.6843 133.714C67.6351 133.714 62.2639 133.816 57.5706 134.019C52.8772 134.223 48.8619 134.528 45.5244 134.935V190.496Z"
+                                        fill="#202020"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_11_471">
+                                        <rect width="176" height="318" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
                     </div>
                 </div>
-                <div class="col"></div>
+                <div class="col-lg-6">
+                    <div class="branding_award-content text-start">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h4>Award</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="branding_award-client">
+                                        <svg
+                                            width="23"
+                                            height="2"
+                                            viewBox="0 0 23 2"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <rect width="23" height="2" fill="black" />
+                                        </svg>
+                                        <body2 class="text-lightGray01">CLIENT</body2>
+                                        <body2>ACT Government</body2>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="branding_award-client">
+                                        <svg
+                                            width="23"
+                                            height="2"
+                                            viewBox="0 0 23 2"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <rect width="23" height="2" fill="black" />
+                                        </svg>
+                                        <body2 class="text-lightGray01">STATUS</body2>
+                                        <body2>Completed 2017s</body2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="branding_award-client">
+                                        <svg
+                                            width="23"
+                                            height="2"
+                                            viewBox="0 0 23 2"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <rect width="23" height="2" fill="black" />
+                                        </svg>
+                                        <body2 class="text-lightGray01">SUMMARY</body2>
+                                        <body2>On time and on budget - 2017 MBA Award Winning Project</body2>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="branding_award-client">
+                                        <svg
+                                            width="23"
+                                            height="2"
+                                            viewBox="0 0 23 2"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <rect width="23" height="2" fill="black" />
+                                        </svg>
+                                        <body2 class="text-lightGray01">LOCATION</body2>
+                                        <body2>Woden Bus Interchange Bradely Street Phillip ACT 2606</body2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -126,6 +236,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/main.scss";
+
 header {
     background-color: white;
     padding-bottom: 19px;
@@ -160,5 +272,39 @@ header {
             background-image: url("https://picsum.photos/1440/780?grayscale");
         }
     }
+    .branding_award-title {
+        margin: 95px 109px 45px 109px;
+        // margin-x 121px- col(12px)
+        width: 580px;
+        height: 230px;
+
+        h2 {
+            padding-bottom: 12px;
+        }
+        .branding_award-logo {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            bottom: 50%;
+            left: 0;
+            transform: translate(25%, 50%);
+            margin-top: 39px;
+        }
+    }
+
+    .branding_award-content {
+        margin: 95px 67px 45px 67px;
+        // margin right 115px - container(24px) - col(12px) - col(12px)
+    }
+}
+
+.bg-fafafa {
+    background: #fafafa;
+    position: relative;
+    height: 392px;
+}
+
+.text-lightGray01 {
+    color: $lightGray01;
 }
 </style>
