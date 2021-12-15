@@ -223,7 +223,30 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="branding_intro-image"></div>
+                    <div class="branding_intro-image image_piscum"></div>
+                </div>
+            </div>
+
+            <div class="row position-relative">
+                <div class="col">
+                    <div class="branding_intro-image02 image_piscum"></div>
+                </div>
+                <div class="col text-start">
+                    <div class="branding_intro-content02">
+                        <svg
+                            width="23"
+                            height="2"
+                            viewBox="0 0 23 2"
+                            fill="none"
+                            class="mb-3"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect width="23" height="2" fill="black" />
+                        </svg>
+                        <div
+                            class="branding_intro-paragraph02"
+                        >The nominated works were described as the partial demolition of the upper and lower area including overhead walkway and roof slab, public toilets and cafe and the construction of new stairs and provision of an external public lift at the Woden Bus Interchange.The nominated works were described as the partial demolition of the upper and lower area including overhead walkway and roof slab, public toilets and cafe and the construction of new stairs and provision of an external public lift at the Woden Bus Interchange.</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -319,6 +342,22 @@ header {
         .branding_intro-paragraph {
         }
     }
+    .branding_intro-content02 {
+        background-color: white;
+        z-index: 100;
+        width: 690px;
+        height: 301px;
+        // transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: 5%;
+        left: 45%;
+        svg {
+            margin: 72px 50px 12px 50px;
+        }
+        .branding_intro-paragraph02 {
+            margin: 0px 50px 59px 50px;
+        }
+    }
     .branding_intro-image {
         margin: 77px 103px 0 108px;
         width: 486px;
@@ -326,6 +365,17 @@ header {
         background-size: cover;
         background-position: 50%;
         // background-attachment: fixed;
+    }
+    .branding_intro-image02 {
+        margin: 122px 0px 96px 108px;
+        width: 690px;
+        height: 453px;
+        background-size: cover;
+        background-position: 50%;
+        // background-attachment: fixed;
+        position: relative;
+    }
+    .image_piscum {
         background-image: url("https://picsum.photos/1440/780?grayscale");
     }
 }
