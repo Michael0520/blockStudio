@@ -93,8 +93,9 @@
                     </div>
                 </div>
             </div>
+            <!-- Award-section -->
             <div class="row bg-fafafa">
-                <div class="col-lg-6 text-start">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-start">
                     <div class="branding_award-title">
                         <h2>Woden Public Realm Improvements Works Package 1 Including Lift & Stairs</h2>
                         <svg
@@ -137,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="branding_award-content text-start">
                         <div class="container-fluid">
                             <div class="row">
@@ -209,6 +210,20 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <!-- INTRO -->
+            <div class="row">
+                <div class="col text-start">
+                    <div class="branding_intro-content">
+                        <div class="branding_intro-title text-lightGray01">INTRO</div>
+                        <div
+                            class="branding_intro-paragraph"
+                        >Acclaim Contractors Pty Ltd were engaged by the ACT Government to complete the Woden Public Realm Improvements (Works Package 1 Including Lift & Stairs) project under Contract No. 21646.340. The project was initiated to improve the user experience at the existing Woden Bus Interchange and provide a connection to the Woden Town Square. The works provided an improvement to public safety, pedestrian and cyclist movements, lighting and provide improved user access.</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="branding_intro-image"></div>
                 </div>
             </div>
         </div>
@@ -291,10 +306,27 @@ header {
             margin-top: 39px;
         }
     }
-
     .branding_award-content {
         margin: 95px 67px 45px 67px;
         // margin right 115px - container(24px) - col(12px) - col(12px)
+    }
+
+    .branding_intro-content {
+        margin: 77px 0px 0 108px;
+        .branding_intro-title {
+            margin-bottom: 8px;
+        }
+        .branding_intro-paragraph {
+        }
+    }
+    .branding_intro-image {
+        margin: 77px 103px 0 108px;
+        width: 486px;
+        height: 364.5px;
+        background-size: cover;
+        background-position: 50%;
+        // background-attachment: fixed;
+        background-image: url("https://picsum.photos/1440/780?grayscale");
     }
 }
 
