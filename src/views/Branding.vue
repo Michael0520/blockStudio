@@ -296,40 +296,44 @@
             <div class="row g-0">
                 <div class="col">
                     <div class="branding_pagination-previous">
-                        <svg
-                            width="29"
-                            height="8"
-                            viewBox="0 0 29 8"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M28 7.46H0.900002L4.02692 1"
-                                stroke="#4A4A4A"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            />
-                        </svg>
-                        <button1>Previous</button1>
+                        <div class="branding_pagination-content">
+                            <svg
+                                width="29"
+                                height="8"
+                                viewBox="0 0 29 8"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M28 7.46H0.900002L4.02692 1"
+                                    stroke="#4A4A4A"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            <button1>Previous</button1>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="branding_pagination-next">
-                        <button1>Next</button1>
-                        <svg
-                            width="29"
-                            height="8"
-                            viewBox="0 0 29 8"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M28 7.46H0.900002L4.02692 1"
-                                stroke="#4A4A4A"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            />
-                        </svg>
+                        <div class="branding_pagination-content">
+                            <button1>Next</button1>
+                            <svg
+                                width="29"
+                                height="8"
+                                viewBox="0 0 29 8"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M1 7.46H28.1L24.9731 1"
+                                    stroke="white"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -485,6 +489,20 @@ header {
     .branding_pagination-next {
         margin-top: 150px;
         border: 1px solid #000;
+        button1 {
+            width: 223px;
+            padding: 0 16px;
+            display: inline-block;
+        }
+    }
+
+    .branding_pagination-next {
+        background-color: $darkGray01;
+        color: white;
+    }
+
+    .branding_pagination-content {
+        padding: 40px 247px 36px 250px;
     }
 }
 
