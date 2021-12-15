@@ -147,9 +147,9 @@
     <!-- main-section -->
     <div class="home_main-section">
       <div class="container-fluid">
-        <div class="row gx-0" data-aos="fade-up">
+        <div class="row gx-0">
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
-            <div class="home_main-paragraph-card text-start">
+            <div class="home_main-paragraph-card text-start" data-aos="fade-up">
               <h3>Award winning civil contractors that partner with all levels of government.</h3>
               <div>
                 <svg
@@ -182,7 +182,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
-            <div class="home_main-paragraph-card text-start">
+            <div
+              class="home_main-paragraph-card text-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
               <h3>Award winning civil contractors that partner with all levels of government.</h3>
               <div>
                 <svg
@@ -215,7 +220,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
-            <div class="home_main-paragraph-card text-start">
+            <div
+              class="home_main-paragraph-card text-start"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
               <h3>Award winning civil contractors that partner with all levels of government.</h3>
               <div>
                 <svg
@@ -250,7 +260,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
-            <div class="home_main-product-card text-start">
+            <div class="home_main-product-card text-start" data-aos="flip-up">
               <div class="home_main-product-card-image">
                 <img src="https://picsum.photos/800/800" alt />
               </div>
@@ -275,7 +285,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
-            <div class="home_main-product-card text-start">
+            <div
+              class="home_main-product-card text-start"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
               <div class="home_main-product-card-image">
                 <img src="https://picsum.photos/800/800" alt />
               </div>
@@ -300,7 +315,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
-            <div class="home_main-product-card text-start">
+            <div
+              class="home_main-product-card text-start"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
               <div class="home_main-product-card-image">
                 <img src="https://picsum.photos/800/800" alt />
               </div>
@@ -327,7 +347,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
-            <div class="home_main-product-card text-start">
+            <div class="home_main-product-card text-start" data-aos="flip-up">
               <div class="home_main-product-card-image">
                 <img src="https://picsum.photos/800/800" alt />
               </div>
@@ -352,7 +372,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph02">
-            <div class="home_main-product-card text-start">
+            <div
+              class="home_main-product-card text-start"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
               <div class="home_main-product-card-image">
                 <img src="https://picsum.photos/800/800" alt />
               </div>
@@ -377,7 +402,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph03">
-            <div class="home_main-product-card text-start">
+            <div
+              class="home_main-product-card text-start"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
               <div class="home_main-product-card-image">
                 <img src="https://picsum.photos/800/800" alt />
               </div>
