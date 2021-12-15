@@ -746,6 +746,7 @@ header {
 }
 
 footer {
+  background-color: black;
   .footer-content-padding {
     padding: 51px 120px 41px 120px;
     .footer-logo {
