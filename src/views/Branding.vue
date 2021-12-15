@@ -212,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <!-- INTRO -->
+            <!-- Intro -->
             <div class="row">
                 <div class="col text-start">
                     <div class="branding_intro-content">
@@ -226,7 +226,7 @@
                     <div class="branding_intro-image image_piscum"></div>
                 </div>
             </div>
-
+            <!-- Intro2 -->
             <div class="row position-relative">
                 <div class="col">
                     <div class="branding_intro-image02 image_piscum"></div>
@@ -246,6 +246,41 @@
                         <div
                             class="branding_intro-paragraph02"
                         >The nominated works were described as the partial demolition of the upper and lower area including overhead walkway and roof slab, public toilets and cafe and the construction of new stairs and provision of an external public lift at the Woden Bus Interchange.The nominated works were described as the partial demolition of the upper and lower area including overhead walkway and roof slab, public toilets and cafe and the construction of new stairs and provision of an external public lift at the Woden Bus Interchange.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- video-section -->
+            <div class="row">
+                <div class="col">
+                    <div class="branding_video-section">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/5Q2Pc-e-8Qc"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="home_more-section">
+                        <svg
+                            width="2"
+                            height="137"
+                            viewBox="0 0 2 137"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect x="0.5" width="1" height="137" fill="#4A4A4A" />
+                        </svg>
+                        <h4 class="pb-4">
+                            Woden Public Realm Improvements Works Package
+                            <br />1 Including Lift & Stairs.
+                        </h4>
                     </div>
                 </div>
             </div>
@@ -377,6 +412,25 @@ header {
     }
     .image_piscum {
         background-image: url("https://picsum.photos/1440/780?grayscale");
+    }
+    .branding_video-section {
+        // width: 1246.15px;
+        height: 675px;
+        margin: 0 120px;
+        background-color: #c4c4c4;
+
+        iframe {
+            // width: 1200px;
+            // height: 675px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .home_more-section {
+        svg {
+            margin-top: 93px;
+            margin-bottom: 20px;
+        }
     }
 }
 
