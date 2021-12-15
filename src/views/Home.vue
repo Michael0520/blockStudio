@@ -147,7 +147,7 @@
     <!-- main-section -->
     <div class="home_main-section">
       <div class="container-fluid">
-        <div class="row gx-0">
+        <div class="row gx-0" data-aos="fade-up">
           <div class="col-lg-4 col-md-12 col-sm-12 paragraph01">
             <div class="home_main-paragraph-card text-start">
               <h3>Award winning civil contractors that partner with all levels of government.</h3>

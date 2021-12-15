@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import axios from "axios";
 import "bootstrap";
 import "reset-css";
@@ -12,5 +14,5 @@ import router from './router';
 
 
 createApp(App).use(router)
-    .use(VueAxios, axios).use(VueLoading)
+    .use(VueAxios, axios).use(VueLoading).use(AOS.init())
     .mount('#app')
