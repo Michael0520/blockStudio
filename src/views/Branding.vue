@@ -100,9 +100,42 @@
     <div class="branding">
         <div class="container-fluid">
             <div class="row">
-                <div class="col g-0">
-                    <div class="branding_banner-section">
-                        <div class="branding_banner-image"></div>
+                <div class="col">
+                    <div
+                        id="carouselExampleControlsNoTouching"
+                        class="carousel slide"
+                        data-bs-touch="false"
+                        data-bs-interval="false"
+                    >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="branding_banner-image"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="branding_banner-image"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="branding_banner-image"></div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching"
+                            data-bs-slide="next"
+                        >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -464,10 +497,15 @@
     </div>
 </template>
 
+
+
 <script>
+
 export default {
     data() {
         return {};
+    },
+    comments: {
     },
     mounted() {
         let loader = this.$loading.show({
@@ -480,9 +518,12 @@ export default {
         setTimeout(() => {
             loader.hide();
         }, 2000);
+
+
     },
 };
 </script>
+
 
 <style lang="scss" scoped>
 @import "../assets/scss/main.scss";
@@ -511,15 +552,13 @@ header {
 }
 
 .branding {
-    .branding_banner-section {
-        .branding_banner-image {
-            height: 100vh;
-            width: 100vw;
-            background-size: cover;
-            background-position: 50%;
-            background-attachment: fixed;
-            background-image: url("https://picsum.photos/1440/780?grayscale");
-        }
+    .branding_banner-image {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-position: 50%;
+        background-attachment: fixed;
+        background-image: url("https://picsum.photos/1440/780?grayscale");
     }
     .branding_award-title {
         margin: 95px 109px 45px 109px;
