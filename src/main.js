@@ -3,7 +3,6 @@ import "aos/dist/aos.css";
 import axios from "axios";
 import "bootstrap";
 import "reset-css";
-import "v3-infinite-loading/lib/style.css";
 import {
     createApp
 } from 'vue';
