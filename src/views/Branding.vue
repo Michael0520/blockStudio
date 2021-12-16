@@ -379,7 +379,7 @@
             </div>
             <!-- Intro -->
             <div class="row">
-                <div class="col text-start">
+                <div class="col text-start" data-aos="flip-up" data-aos-duration="2000">
                     <div class="branding_intro-content">
                         <div class="branding_intro-title text-lightGray01">INTRO</div>
                         <div
@@ -387,16 +387,16 @@
                         >Acclaim Contractors Pty Ltd were engaged by the ACT Government to complete the Woden Public Realm Improvements (Works Package 1 Including Lift & Stairs) project under Contract No. 21646.340. The project was initiated to improve the user experience at the existing Woden Bus Interchange and provide a connection to the Woden Town Square. The works provided an improvement to public safety, pedestrian and cyclist movements, lighting and provide improved user access.</div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="flip-up" data-aos-duration="2000">
                     <div class="branding_intro-image image_piscum"></div>
                 </div>
             </div>
             <!-- Intro2 -->
             <div class="row position-relative">
-                <div class="col">
+                <div class="col" data-aos="fade-down-right" data-aos-duration="3000">
                     <div class="branding_intro-image02 image_piscum"></div>
                 </div>
-                <div class="col text-start">
+                <div class="col text-start" data-aos="fade-down-left" data-aos-duration="3000">
                     <div class="branding_intro-content02">
                         <svg
                             width="23"
@@ -416,7 +416,7 @@
             </div>
             <!-- video-section -->
             <div class="row g-0">
-                <div class="col">
+                <div class="col" data-aos="flip-up" data-aos-duration="10000">
                     <div class="branding_video-section">
                         <div class="branding_video-image image_piscum"></div>
                         <div class="branding_video-modal">
