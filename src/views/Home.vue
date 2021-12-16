@@ -58,7 +58,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M1.01671 0.630423H18.9834" stroke="black" stroke-linecap="round" />
+              <path d="M1.01671 0.630423H18.9834" stroke="white" stroke-linecap="round" />
             </svg>
             <svg
               width="20"
@@ -67,7 +67,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M1.01671 0.630423H18.9834" stroke="black" stroke-linecap="round" />
+              <path d="M1.01671 0.630423H18.9834" stroke="white" stroke-linecap="round" />
             </svg>
             <svg
               width="20"
@@ -76,7 +76,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M1.01671 0.630423H18.9834" stroke="black" stroke-linecap="round" />
+              <path d="M1.01671 0.630423H18.9834" stroke="white" stroke-linecap="round" />
             </svg>
           </div>
         </li>
@@ -543,38 +543,6 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <div
-              class="home_main-product-card text-start"
-              data-aos="flip-up"
-              data-aos-duration="1000"
-              data-aos-easing="linear"
-            >
-              <div class="home_main-product-card-image">
-                <img src="https://picsum.photos/800/800" alt />
-              </div>
-              <div class="home_main-product-card-content">
-                <div class="btn btn-dark">Award</div>
-                <h6>
-                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
-                  <p class="body2">Urban Public Realm Refurbishment.</p>
-                </h6>
-
-                <div class="home_main-product-card-data">
-                  <div class="home_main-product-card-client">
-                    <body2>CLIENT</body2>
-                    <body2>ACT Government</body2>
-                  </div>
-                  <div class="home_main-product-card-status">
-                    <body2>STATUS</body2>
-                    <body2>Completed 2017</body2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <!-- more-section -->
@@ -717,28 +685,16 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
+
+
+
 export default {
   data() {
     return {
       name: "Home",
-      // infiniteData: [],//inifinite scroll渲染的部分
-      // busy: false, //true觸發載入，false停止載入
     }
   },
   methods: {
-    // loadMore() {
-    //   var count = 0; //要推入的資料筆數
-    //   this.busy = true;
-
-    //   setTimeout(() => {
-    //     for (var i = 0, j = 5; i < j; i++) {
-    //       this.infiniteData.push({ name: count++ });
-    //     }
-    //     this.busy = false;
-    //   }, 1000);
-    // }
   },
   components: {
     // HelloWorld,
@@ -754,8 +710,8 @@ export default {
     setTimeout(() => {
       loader.hide();
     }, 2000);
-  },
-};
+  }
+}
 </script>
 
 <style lang="scss">
@@ -1015,6 +971,39 @@ header {
         }
       }
     }
+  }
+}
+
+.post {
+  .post-title {
+    margin: 0;
+  }
+  .post-body {
+    margin: 15px 0 0;
+    line-height: 1.3;
+  }
+  .post-info {
+    margin-left: 20px;
+  }
+  .number {
+    /* 絕對定位 */
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 15px;
+
+    /* 圓圈的寬高為 40px，radius 圓角為 50% */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    color: #296ca8;
+
+    /* 絕對定位到白色圓圈中間 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
   }
 }
 
