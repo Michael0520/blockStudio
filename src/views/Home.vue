@@ -841,10 +841,10 @@ export default {
 
 header {
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
+  position: absolute;
+  // top: 0;
+  // left: 0;
+  z-index: 1000;
   transition: all 0.3s;
   display: flex;
   justify-content: space-between;
@@ -877,8 +877,11 @@ header {
         &:last-child {
           margin-right: 37.83px;
         }
-        &:hover {
-          border-bottom: 2px solid #fff;
+        h7 {
+          &:hover {
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+          }
         }
       }
     }
@@ -939,9 +942,14 @@ header {
       margin-top: auto;
       margin-bottom: auto;
       li {
+        width: 100px;
         margin-top: 60px;
         h5 {
           color: #fff;
+          &:hover {
+            background-color: #fff;
+            color: #000;
+          }
         }
       }
     }

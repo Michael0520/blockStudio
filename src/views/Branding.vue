@@ -447,7 +447,7 @@
                                 aria-labelledby="dbschemaModalLabel"
                                 aria-hidden="true"
                             >
-                                <div class="modal-dialog" role="document">
+                                <div class="modal-dialog modal-fullscreen" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body">
                                             <button
@@ -467,6 +467,13 @@
                                                     allowscriptaccess="always"
                                                     allow="autoplay"
                                                 ></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal"
+                                                >Close</button>
                                             </div>
                                         </div>
                                     </div>
@@ -720,8 +727,10 @@ header {
     .nav-bar {
         ul {
             li {
-                &:hover {
-                    border-bottom: 2px solid #000;
+                h7 {
+                    &:hover {
+                        border-bottom: 2px solid #000;
+                    }
                 }
             }
         }
