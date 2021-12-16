@@ -299,15 +299,48 @@
             <div class="row g-0">
                 <div class="col">
                     <div class="branding_video-section">
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/5Q2Pc-e-8Qc"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
+                        <div class="branding_video-image image_piscum"></div>
+                        <div class="branding_video-modal">
+                            <button
+                                type="button"
+                                class="video-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#videoModal"
+                                data-bs-src="https://www.youtube.com/embed/EzDC8aAJln0"
+                            >123</button>
+                            <div
+                                class="modal fade"
+                                id="videoModal"
+                                tabindex="-1"
+                                role="dialog"
+                                aria-labelledby="dbschemaModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-dismiss="modal"
+                                                aria-label="Close"
+                                            >
+                                                <span aria-hidden="true"></span>
+                                            </button>
+                                            <div class="ratio ratio-16x9">
+                                                <iframe
+                                                    class="embed-responsive-item"
+                                                    src
+                                                    id="video"
+                                                    allowscriptaccess="always"
+                                                    allow="autoplay"
+                                                ></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -505,8 +538,6 @@ export default {
     data() {
         return {};
     },
-    comments: {
-    },
     mounted() {
         let loader = this.$loading.show({
             // Optional parameters
@@ -518,6 +549,27 @@ export default {
         setTimeout(() => {
             loader.hide();
         }, 2000);
+
+        // bootstrap5 js
+
+        // modalVideo js
+        var videoBtn = document.querySelector('.video-btn')
+        var videoModal = document.getElementById('videoModal')
+        var video = document.getElementById('video')
+        var videoSrc
+
+        videoBtn.addEventListener('click', function () {
+            videoSrc = videoBtn.getAttribute('data-bs-src')
+        })
+
+        videoModal.addEventListener('shown.bs.modal', () => {
+            video.setAttribute('src', videoSrc + '?autoplay=1&amp;modestbranding=1&amp;showinfo=0')
+        })
+
+        videoModal.addEventListener('hide.bs.modal', () => {
+            video.setAttribute('src', videoSrc)
+        })
+
 
 
     },
@@ -632,8 +684,18 @@ header {
         // width: 1246.15px;
         height: 675px;
         margin: 0 120px;
-        background-color: #c4c4c4;
-
+        position: relative;
+        // background-color: #c4c4c4;
+        .branding_video-image {
+            width: 100%;
+            height: 100%;
+        }
+        .video-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
         iframe {
             // width: 1200px;
             // height: 675px;
