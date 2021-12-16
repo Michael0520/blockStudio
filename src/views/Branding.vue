@@ -415,67 +415,65 @@
                 </div>
             </div>
             <!-- video-section -->
-            <div class="row g-0">
-                <div class="col" data-aos="flip-up" data-aos-duration="10000">
+
+            <div class="row">
+                <div class="col">
                     <div class="branding_video-section">
                         <div class="branding_video-image image_piscum"></div>
-                        <div class="branding_video-modal">
-                            <button
-                                type="button"
-                                class="video-btn"
-                                data-bs-toggle="modal"
-                                data-bs-target="#videoModal"
-                                data-bs-src="https://www.youtube.com/embed/EzDC8aAJln0"
-                            >
-                                <div class="btn-triangle ms-1">
-                                    <svg
-                                        width="30"
-                                        height="36"
-                                        viewBox="0 0 30 36"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path d="M30 18L0 35.3205L0 0.679491L30 18Z" fill="white" />
-                                    </svg>
-                                </div>
-                            </button>
-                            <div
-                                class="modal fade"
-                                id="videoModal"
-                                tabindex="-1"
-                                role="dialog"
-                                aria-labelledby="dbschemaModalLabel"
-                                aria-hidden="true"
-                            >
-                                <div class="modal-dialog modal-fullscreen" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-body">
-                                            <button
-                                                type="button"
-                                                class="btn-close"
-                                                data-dismiss="modal"
-                                                aria-label="Close"
-                                            >
-                                                <span aria-hidden="true"></span>
-                                            </button>
-
-                                            <div class="ratio ratio-16x9">
-                                                <iframe
-                                                    class="embed-responsive-item"
-                                                    src
-                                                    id="video"
-                                                    allowscriptaccess="always"
-                                                    allow="autoplay"
-                                                ></iframe>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button
-                                                    type="button"
-                                                    class="btn btn-secondary"
-                                                    data-bs-dismiss="modal"
-                                                >Close</button>
-                                            </div>
+                        <button
+                            type="button"
+                            class="video-btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#videoModal"
+                            data-bs-src="https://www.youtube.com/embed/EzDC8aAJln0"
+                        >
+                            <div class="btn-triangle ms-1">
+                                <svg
+                                    width="30"
+                                    height="36"
+                                    viewBox="0 0 30 36"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M30 18L0 35.3205L0 0.679491L30 18Z" fill="white" />
+                                </svg>
+                            </div>
+                        </button>
+                        <div
+                            class="modal fade"
+                            id="videoModal"
+                            tabindex="-1"
+                            role="dialog"
+                            aria-labelledby="dbschemaModalLabel"
+                            aria-hidden="true"
+                        >
+                            <div class="modal-dialog modal-fullscreen" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button
+                                            type="button"
+                                            class="btn-close"
+                                            data-dismiss="modal"
+                                            aria-label="Close"
+                                        >
+                                            <span aria-hidden="true"></span>
+                                        </button>
+                                        <div class="ratio ratio-16x9">
+                                            <iframe
+                                                class="embed-responsive-item"
+                                                src
+                                                id="video"
+                                                allowscriptaccess="always"
+                                                allow="autoplay"
+                                            ></iframe>
                                         </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button
+                                            type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal"
+                                        >Close</button>
                                     </div>
                                 </div>
                             </div>
@@ -699,20 +697,23 @@ export default {
 
 
         // modalVideo js
-        var videoBtn = document.querySelector(".video-btn");
-        var videoModal = document.getElementById("videoModal");
-        var video = document.getElementById("video");
-        var videoSrc;
-        videoBtn.addEventListener("click", function () {
-            videoSrc = videoBtn.getAttribute("data-bs-src");
-        });
-        videoModal.addEventListener("shown.bs.modal", () => {
-            video.setAttribute("src", videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-        });
-        videoModal.addEventListener("hide.bs.modal", () => {
-            video.setAttribute("src", videoSrc);
+        var videoBtn = document.querySelector('.video-btn')
+        var videoModal = document.getElementById('videoModal')
+        var video = document.getElementById('video')
+        var videoSrc
 
-        });
+        videoBtn.addEventListener('click', function () {
+            videoSrc = videoBtn.getAttribute('data-bs-src')
+        })
+
+        videoModal.addEventListener('shown.bs.modal', () => {
+            video.setAttribute('src', videoSrc + '?autoplay=1&amp;modestbranding=1&amp;showinfo=0')
+        })
+
+        videoModal.addEventListener('hide.bs.modal', () => {
+            video.setAttribute('src', videoSrc)
+        })
+
 
 
 
@@ -897,9 +898,7 @@ header {
         // background-attachment: fixed;
         position: relative;
     }
-    .image_piscum {
-        background-image: url("https://picsum.photos/1440/780?grayscale");
-    }
+
     .branding_video-section {
         // width: 1246.15px;
         height: 675px;
@@ -954,6 +953,10 @@ header {
     .branding_pagination-content {
         margin: 40px 207px 36px 207px;
     }
+}
+
+.image_piscum {
+    background-image: url("https://picsum.photos/1440/780?grayscale");
 }
 
 .bg-fafafa {
