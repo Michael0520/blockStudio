@@ -780,6 +780,10 @@ header {
                 margin-top: 60px;
                 h5 {
                     color: #fff;
+                    &:hover {
+                        background-color: #fff;
+                        color: #000;
+                    }
                 }
             }
         }
