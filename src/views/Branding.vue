@@ -426,7 +426,19 @@
                                 data-bs-toggle="modal"
                                 data-bs-target="#videoModal"
                                 data-bs-src="https://www.youtube.com/embed/EzDC8aAJln0"
-                            >123</button>
+                            >
+                                <div class="btn-triangle ms-1">
+                                    <svg
+                                        width="30"
+                                        height="36"
+                                        viewBox="0 0 30 36"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M30 18L0 35.3205L0 0.679491L30 18Z" fill="white" />
+                                    </svg>
+                                </div>
+                            </button>
                             <div
                                 class="modal fade"
                                 id="videoModal"
@@ -446,6 +458,7 @@
                                             >
                                                 <span aria-hidden="true"></span>
                                             </button>
+
                                             <div class="ratio ratio-16x9">
                                                 <iframe
                                                     class="embed-responsive-item"
@@ -788,6 +801,11 @@ header {
     }
 }
 
+.modal-dialog {
+    .btn-close {
+        display: none;
+    }
+}
 .branding {
     .branding_banner-image {
         height: 100vh;
@@ -876,6 +894,11 @@ header {
             height: 100%;
         }
         .video-btn {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            background-color: $darkGray02;
+            border: 1px solid $darkGray02;
             position: absolute;
             top: 50%;
             left: 50%;
