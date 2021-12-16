@@ -690,7 +690,29 @@
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
 export default {
-  name: "Home",
+  data() {
+    return {
+      name: "Home",
+      count: 0, //要推入的資料筆數
+      infiniteData: [],//inifinite scroll渲染的部分
+      busy: false, //true觸發載入，false停止載入
+      courses: [] //全部的資料
+    }
+  },
+  methods: {
+    loadMore() {
+      if (this.infiniteData.length <= this.courses.length) {
+        this.busy = true;
+        setTimeout(() => {
+          for (var i = 0, j = 5; i < j; i++) {
+            if (this.count === this.courses.length) { break; }
+            this.infiniteData.push(this.courses[this.count++]);
+          }
+          this.busy = false;
+        }, 1000);
+      }
+    }
+  },
   components: {
     // HelloWorld,
   },
