@@ -195,7 +195,6 @@
 
   <div class="home">
     <!-- banner-section -->
-
     <div class="home_banner-section">
       <div class="home_banner">
         <div class="home_banner-image"></div>
@@ -242,8 +241,7 @@
           </svg>
         </div>
       </div>
-
-      <!--  -->
+      <!-- banner-content -->
       <div class="home_banner-content">
         <h1 class="home_banner-title">
           Commercial builders with pride –
@@ -545,9 +543,41 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <div
+              class="home_main-product-card text-start"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-easing="linear"
+            >
+              <div class="home_main-product-card-image">
+                <img src="https://picsum.photos/800/800" alt />
+              </div>
+              <div class="home_main-product-card-content">
+                <div class="btn btn-dark">Award</div>
+                <h6>
+                  Woden Public Realm Improvements Works Package 1 Including Lift & Stairs
+                  <p class="body2">Urban Public Realm Refurbishment.</p>
+                </h6>
+
+                <div class="home_main-product-card-data">
+                  <div class="home_main-product-card-client">
+                    <body2>CLIENT</body2>
+                    <body2>ACT Government</body2>
+                  </div>
+                  <div class="home_main-product-card-status">
+                    <body2>STATUS</body2>
+                    <body2>Completed 2017</body2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
+    <!-- more-section -->
     <div class="home_more-section">
       <div class="pb-4">
         <svg
@@ -693,25 +723,22 @@ export default {
   data() {
     return {
       name: "Home",
-      count: 0, //要推入的資料筆數
-      infiniteData: [],//inifinite scroll渲染的部分
-      busy: false, //true觸發載入，false停止載入
-      courses: [] //全部的資料
+      // infiniteData: [],//inifinite scroll渲染的部分
+      // busy: false, //true觸發載入，false停止載入
     }
   },
   methods: {
-    loadMore() {
-      if (this.infiniteData.length <= this.courses.length) {
-        this.busy = true;
-        setTimeout(() => {
-          for (var i = 0, j = 5; i < j; i++) {
-            if (this.count === this.courses.length) { break; }
-            this.infiniteData.push(this.courses[this.count++]);
-          }
-          this.busy = false;
-        }, 1000);
-      }
-    }
+    // loadMore() {
+    //   var count = 0; //要推入的資料筆數
+    //   this.busy = true;
+
+    //   setTimeout(() => {
+    //     for (var i = 0, j = 5; i < j; i++) {
+    //       this.infiniteData.push({ name: count++ });
+    //     }
+    //     this.busy = false;
+    //   }, 1000);
+    // }
   },
   components: {
     // HelloWorld,
