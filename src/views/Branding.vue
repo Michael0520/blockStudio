@@ -684,21 +684,7 @@ export default {
     },
     props: [],
     mounted() {
-        // modalVideo js
-        // var videoBtn = document.querySelector(".video-btn");
-        // var videoModal = document.getElementById("videoModal");
-        // var video = document.getElementById("video");
-        // var videoSrc;
-        // videoBtn.addEventListener("click", function () {
-        //     videoSrc = videoBtn.getAttribute("data-bs-src");
-        // });
-        // videoModal.addEventListener("shown.bs.modal", () => {
-        //     video.setAttribute("src", videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-        // });
-        // videoModal.addEventListener("hide.bs.modal", () => {
-        //     video.setAttribute("src", videoSrc);
 
-        // });
 
         let loader = this.$loading.show({
             // Optional parameters
@@ -711,6 +697,22 @@ export default {
             loader.hide();
         }, 2000);
 
+
+        // modalVideo js
+        var videoBtn = document.querySelector(".video-btn");
+        var videoModal = document.getElementById("videoModal");
+        var video = document.getElementById("video");
+        var videoSrc;
+        videoBtn.addEventListener("click", function () {
+            videoSrc = videoBtn.getAttribute("data-bs-src");
+        });
+        videoModal.addEventListener("shown.bs.modal", () => {
+            video.setAttribute("src", videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+        });
+        videoModal.addEventListener("hide.bs.modal", () => {
+            video.setAttribute("src", videoSrc);
+
+        });
 
 
 
